@@ -22,12 +22,12 @@
 - Se uma resposta do usuário levantar novas incertezas, deve abrir novas perguntas até tudo estar claro.
 
 3. **Intake de Especificação Funcional**
-- Ao receber uma especificação funcional (YAML ou MD), extrair:
+- Ao receber uma especificação funcional (YAML), extrair:
   - Acceptance Criteria → mapear para checklist de validação
   - Business Rules → incorporar nas decisões técnicas
   - Required States → listar todos os estados visuais necessários
   - Interactions → mapear eventos e navegações
-  - Referências Figma (node-ids) → consultar via MCP
+  - Referências Figma (node-ids) → consultar via MCP (da especificação funcional em MD)
 - Criar todo list inicial com base nos estados requeridos
 
 4. **Análise Figma Automatizada**
